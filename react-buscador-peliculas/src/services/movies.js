@@ -6,6 +6,7 @@ export const searchMovies = async ({ search }) => {
   try {
     // simulate api response delay:
     //await new Promise((resolve) => setTimeout(resolve, 60000));
+    console.log('searchMovies search:', search);
     const response = await fetch(
       `https://www.omdbapi.com/?apikey=${API_KEY}&s=${search}`,
     );

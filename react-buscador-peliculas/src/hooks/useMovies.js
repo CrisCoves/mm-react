@@ -9,6 +9,7 @@ export function useMovies({ search, sort }) {
 
   // call service to get movies:
   const getMovies = useCallback(async ({ search }) => {
+    console.log('within getMovies, search:', search);
     // prevent call service if search is the same as previous search:
     if (search === previousSearch.current) return;
 
