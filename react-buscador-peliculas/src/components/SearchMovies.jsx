@@ -26,7 +26,7 @@ export default function SearchMovies() {
     updateSearch(newSearch);
 
     // Debounce with '/just-debounce-it': Cancelar el timeout anterior
-    debouncedGetMovies({ search: newSearch });
+    debouncedGetMovies(newSearch);
   };
 
   const handleSort = () => {
