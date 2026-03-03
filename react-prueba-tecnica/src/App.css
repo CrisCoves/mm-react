@@ -1,0 +1,59 @@
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+html {
+    font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color-scheme: light dark;
+}
+
+.c-page {
+    width: 100%;
+    max-width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.c-page__headline-primary {
+    font-size: 3rem;
+}
+
+.c-cat-tile {
+}
+
+.c-cat-tile__wp {
+    display: flex;
+    column-gap: 2rem;
+    align-items: center;
+}
+
+.c-cat-tile__img {
+    display: block;
+    max-width: 50%;
+    height: 500px;
+}
+
+.c-cat-tile__txt-side {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.c-cat-tile__text {
+    font-size: 1.5rem;
+    margin-bottom: 24px;
+}
+
+.c-cat-tile__btn {
+    margin-bottom: 2rem;
+}
