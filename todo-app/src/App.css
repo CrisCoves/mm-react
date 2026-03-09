@@ -1,0 +1,86 @@
+
+html {
+  /* Nota: el "filter: invert(1)" es el dark mode pirata :) */
+  filter: invert(1);
+}
+
+.c-page .todoapp {
+  margin-top: 0;
+}
+
+.todoapp .header__headline {
+  position: static;
+  margin-top: 0;
+}
+
+.c-page {
+  width: 100%;
+  max-width: 60vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.c-page__content-wp {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.c-page__main {
+  flex: 1;
+}
+
+.c-page__title {
+  margin-bottom: 4rem;
+}
+
+
+.c-todo-list {
+  padding: 0;
+  margin: 0;
+}
+
+
+.c-todo {
+  display: flex;
+}
+
+.c-todo__title {
+  flex: 1;
+}
+
+.todoapp .c-todo-list__item {
+  padding-left: 1rem;
+}
+
+.todoapp .footer {
+  padding-left: 1.8rem;
+  padding-right: 1.8rem;
+}
+
+.c-counter {
+  display: flex;
+  flex-direction: column;
+}
+
+.c-counter__counter {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.c-counter__txt--error {
+  color: red;
+}
+
+.c-counter__btn-wp {
+  display: flex;
+  gap: 1rem;
+}
+
+.c-counter__btn {
+  font-size: 1.25rem;
+  font-weight: bold;
+  background-color: #0e70c0;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}

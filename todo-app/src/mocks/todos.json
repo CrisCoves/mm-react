@@ -1,0 +1,19 @@
+{
+  "mockTodos": [
+    {
+      "id": "1",
+      "title": "Ver el twich de Midu",
+      "completed": true
+    },
+    {
+      "id": "2",
+      "title": "Aprender react con Typescript",
+      "completed": false
+    },
+    {
+      "id": "3",
+      "title": "Sacar ticket de la miduFest",
+      "completed": false
+    }
+  ]
+}
