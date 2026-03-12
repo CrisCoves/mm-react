@@ -23,7 +23,7 @@ export default defineConfig([
     },
     rules: {
       'react/react-in-jsx-scope': 'off',
-      //'@/no-unused-vars': ["error", { "argsIgnorePattern": "^_" }],
+      //https://github.com/typescript-eslint/typescript-eslint/issues/2619
       "no-unused-vars": "off",
       "@typescript-eslint/no-unused-vars": "error",
     },
